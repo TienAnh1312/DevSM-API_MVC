@@ -1,0 +1,17 @@
+﻿@model PTongHop.Model.Product
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<h1>Product Details</h1>
+
+<div>
+    <h3>@Model.Title</h3>
+    <p><strong>Price:</strong> @Model.PriceNew</p>
+   @* <p><strong>Category:</strong> @Model.Ca</p> *@
+    <p><strong>Description:</strong> @Model.Description</p>
+    <p><strong>Image:</strong> @Model.Image</p>
+</div>
+
+<a href="@Url.Action("Index", "Products")" class="btn btn-secondary">Back to List</a>

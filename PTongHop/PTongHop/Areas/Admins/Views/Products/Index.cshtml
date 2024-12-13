@@ -1,0 +1,63 @@
+﻿@model List<PTongHop.Model.Product>
+
+@{
+    ViewData["Title"] = "Product List";
+}
+
+<h1 class="text-center my-4">Product List</h1>
+
+<p class="text-end">
+    <a href="@Url.Action("Create", "Products", new { area = "Admins" })" class="btn btn-primary">
+        <i class="bi bi-plus-circle"></i> Create New Product
+    </a>
+</p>
+
+<!-- Form tìm kiếm -->
+<form method="get" asp-controller="Products" asp-action="Index" class="d-flex justify-content-center mb-4">
+    <div class="input-group w-50 shadow">
+        <input type="text" name="Name" class="form-control" placeholder="Tìm kiếm theo tên" value="@Model.FirstOrDefault()?.Title" />
+        <button type="submit" class="btn btn-primary">
+            <i class="bi bi-search"></i> Tìm kiếm
+        </button>
+    </div>
+</form>
+
+<table class="table table-hover table-bordered align-middle">
+    <thead class="table-dark">
+        <tr>
+            <th class="text-center">Mã sản phẩm</th>
+            <th class="text-center">Tên sản phẩm</th>
+            <th class="text-center">Hình ảnh</th>
+            <th class="text-center">Giá</th>
+            @* <th class="text-center">Danh mục</th> *@
+            <th class="text-center">Chức năng</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Code</td>
+                <td class="text-center">
+                    @if (!string.IsNullOrEmpty(product.Image))
+                    {
+                        <div class="mt-0">
+                            <img src="@Url.Content("~/image/products/" + product.Image)" alt="Current Image" class="img-fluid rounded" style="max-width: 5rem;" />
+                        </div>
+                    }
+                </td>
+                <td>@product.PriceOld</td>
+               @*  <td>@product.Category?.Name</td> *@
+                <td class="text-center">
+                    <a href="@Url.Action("Edit", "Products", new { id = product.Id, area = "Admins" })" class="btn btn-warning btn-sm">
+                        <i class="bi bi-pencil-square"></i> Edit
+                    </a>
+                    <a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this product?');">
+                        <i class="bi bi-trash"></i> Delete
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

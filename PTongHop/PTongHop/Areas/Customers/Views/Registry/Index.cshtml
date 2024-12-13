@@ -1,0 +1,21 @@
+﻿@model PTongHop.Model.Customer
+
+<form asp-action="Index" method="post">
+    <div>
+        <label for="Email">Email</label>
+        <input type="email" id="Email" name="Email" required />
+    </div>
+    <div>
+        <label for="Password">Mật khẩu</label>
+        <input type="password" id="Password" name="Password" required />
+    </div>
+    <div>
+        <label for="Phone">Số điện thoại</label>
+        <input type="number" id="Phone" name="Phone" required />
+    </div>
+    <div>
+        <label for="Address">Địa chỉ</label>
+        <input type="text" id="Address" name="Address" required />
+    </div>
+    <button type="submit">Đăng ký</button>
+</form>

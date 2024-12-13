@@ -1,0 +1,50 @@
+﻿@model IEnumerable<PTongHop.Model.Banner>
+@{
+    ViewData["Title"] = "Banner List";
+}
+
+<h1>Banner List</h1>
+
+<form method="get" asp-action="Index">
+    <div class="form-group">
+        <input type="text" name="keyword" placeholder="Search Banner" class="form-control" value="@ViewBag.Keyword" />
+        <button type="submit" class="btn btn-primary">Search</button>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Banner ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var banner in Model)
+        {
+            <tr>
+                <td>@banner.Id</td>
+                <td>@banner.Title</td>
+                <td>@banner.Notes</td>
+                <td>
+                    <a href="@Url.Action("Edit", new { id = banner.Id })" class="btn btn-warning">Edit</a>
+                    <a href="@Url.Action("Details", new { id = banner.Id })" class="btn btn-info">Details</a>
+                    <a href="@Url.Action("Delete", new { id = banner.Id })" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <ul class="pagination">
+        @for (int i = 1; i <= ViewBag.TotalPages; i++)
+        {
+            <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                <a class="page-link" href="@Url.Action("Index", new { page = i, keyword = ViewBag.Keyword })">@i</a>
+            </li>
+        }
+    </ul>
+</div>

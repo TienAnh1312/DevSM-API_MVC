@@ -1,0 +1,64 @@
+﻿@model PTongHop.Model.Category
+
+@{
+    ViewData["Title"] = "Edit Category";
+}
+
+<h2>Edit Category</h2>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Title" class="control-label"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Notes" class="control-label"></label>
+        <textarea asp-for="Notes" class="form-control"></textarea>
+        <span asp-validation-for="Notes" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Status" class="control-label"></label>
+        <select asp-for="Status" class="form-control" asp-items="@(new SelectList(new[] { new { Value = 1, Text = "Active" }, new { Value = 0, Text = "Inactive" }, }, "Value", "Text"))">
+        </select>
+        <span asp-validation-for="Status" class="text-danger"></span>
+    </div>
+
+
+    <div class="form-group">
+        <label asp-for="CreatedDate" class="control-label"></label>
+        <input asp-for="CreatedDate" class="form-control" type="datetime-local" />
+        <span asp-validation-for="CreatedDate" class="text-danger"></span>
+    </div>
+
+    @* <div class="form-group">
+        <label for="Image">Image</label>
+        <input type="file" name="Image" id="Image" class="form-control" />
+
+       
+    </div> *@
+    @*  <!-- Hiển thị ảnh hiện tại nếu có -->
+        @if (!string.IsNullOrEmpty(Model.Image))
+        {
+            <div class="mt-2">
+                <img src="@Url.Content("~/image/categories/" + Model.Image)" alt="Current Image" style="max-width: 200px; margin-top: 10px;" />
+                <br />
+                <small>Current image: @Model.Image</small>
+            </div>
+        } *@
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+</form>
+
+<div>
+    <a href="@Url.Action("Index")">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

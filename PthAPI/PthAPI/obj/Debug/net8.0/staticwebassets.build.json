@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "F1lAkADwWLKoT+U1ehUpUC2dWWJTtkDNeXWkhaYjCOQ=",
+  "Source": "PthAPI",
+  "BasePath": "_content/PthAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

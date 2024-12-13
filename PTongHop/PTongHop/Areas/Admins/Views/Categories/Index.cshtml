@@ -1,0 +1,42 @@
+﻿@model IEnumerable<PTongHop.Model.Category>
+
+@{
+    ViewData["Title"] = "Danh sách Danh mục";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form method="get">
+    <input type="text" name="Title" placeholder="Tìm kiếm theo tên danh mục" value="@ViewData["SearchTerm"]" />
+    <button type="submit">Tìm kiếm</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tiêu đề</th>
+            <th>Ngày tạo</th>
+            <th>Trạng thái</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td>@category.Title</td>
+                <td>@category.CreatedDate?.ToString("dd/MM/yyyy")</td>
+                <td>@(category.Status == 1 ? "Hoạt động" : "Không hoạt động")</td>
+                <td>
+                    <a href="@Url.Action("Edit", new { id = category.Id })">Sửa</a> 
+                    <a>Chi tiết</a>
+                    <a href="@Url.Action("Delete", new { id = category.Id })" onclick="return confirm('Bạn chắc chắn muốn xóa?')">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div>
+    hiển thị chi tiết
+</div>
+<a href="@Url.Action("Create")" class="btn btn-primary">Thêm mới danh mục</a>

@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\pthapi\\pthapi\\controllers\\customermembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|solutionrelative:pthapi\\controllers\\customermembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\pthapi\\pthapi\\models\u200B\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|solutionrelative:pthapi\\models\u200B\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\pthapi\\pthapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|solutionrelative:pthapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\pthapi\\pthapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|solutionrelative:pthapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\pthapi\\pthapi\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|solutionrelative:pthapi\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\pthapi\\pthapi\\controllers\\loginadminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|solutionrelative:pthapi\\controllers\\loginadminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\pthapi\\pthapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|solutionrelative:pthapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\pthapi\\pthapi\\models\u200B\\devsmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|solutionrelative:pthapi\\models\u200B\\devsmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\pthapi\\pthapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|solutionrelative:pthapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\pthapi\\pthapi\\models\u200B\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|solutionrelative:pthapi\\models\u200B\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\pthapi\\pthapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|solutionrelative:pthapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\pthapi\\pthapi\\controllers\\bannerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|solutionrelative:pthapi\\controllers\\bannerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|e:\\buitienanh\\h\u1ECDc t\u1EADp\\buitienanh-th\\buitienanh-mvc\\pthapi\\pthapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4B71AB5F-5A24-46D9-8F17-C4C10C66B1F2}|PthAPI\\PthAPI.csproj|solutionrelative:pthapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Model\\DevSmContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PthAPI\\Model\\DevSmContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Models\u200B\\Customer.cs",
+              "RelativeDocumentMoniker": "PthAPI\\Models\u200B\\Customer.cs",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Models\u200B\\Customer.cs",
+              "RelativeToolTip": "PthAPI\\Models\u200B\\Customer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T09:41:29.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerMemberController.cs",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Controllers\\CustomerMemberController.cs",
+              "RelativeDocumentMoniker": "PthAPI\\Controllers\\CustomerMemberController.cs",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Controllers\\CustomerMemberController.cs",
+              "RelativeToolTip": "PthAPI\\Controllers\\CustomerMemberController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAkwFkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T09:25:49.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "PthAPI\\Controllers\\ProductsController.cs",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "PthAPI\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAkwJAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T03:53:23.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginAdminsController.cs",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Controllers\\LoginAdminsController.cs",
+              "RelativeDocumentMoniker": "PthAPI\\Controllers\\LoginAdminsController.cs",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Controllers\\LoginAdminsController.cs",
+              "RelativeToolTip": "PthAPI\\Controllers\\LoginAdminsController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T03:53:00.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "PthAPI\\Controllers\\DashboardController.cs",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "PthAPI\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T03:52:53.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "PthAPI\\Controllers\\CategoryController.cs",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "PthAPI\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T03:52:46.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "PthAPI\\Controllers\\CategoriesController.cs",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "PthAPI\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAA5wDkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T03:51:17.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "PthAPI\\Controllers\\CartController.cs",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Controllers\\CartController.cs",
+              "RelativeToolTip": "PthAPI\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowGEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T07:18:39.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DevSmContext.cs",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Models\u200B\\DevSmContext.cs",
+              "RelativeDocumentMoniker": "PthAPI\\Models\u200B\\DevSmContext.cs",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Models\u200B\\DevSmContext.cs",
+              "RelativeToolTip": "PthAPI\\Models\u200B\\DevSmContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T07:08:20.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Models\u200B\\Cart.cs",
+              "RelativeDocumentMoniker": "PthAPI\\Models\u200B\\Cart.cs",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Models\u200B\\Cart.cs",
+              "RelativeToolTip": "PthAPI\\Models\u200B\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T07:19:11.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BannersController.cs",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Controllers\\BannersController.cs",
+              "RelativeDocumentMoniker": "PthAPI\\Controllers\\BannersController.cs",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Controllers\\BannersController.cs",
+              "RelativeToolTip": "PthAPI\\Controllers\\BannersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T03:50:09.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Program.cs",
+              "RelativeDocumentMoniker": "PthAPI\\Program.cs",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Program.cs",
+              "RelativeToolTip": "PthAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T03:53:53.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "PthAPI\\appsettings.json",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\appsettings.json",
+              "RelativeToolTip": "PthAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-11T03:54:21.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DevSmContext.cs",
+              "DocumentMoniker": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Model\\DevSmContext.cs",
+              "RelativeDocumentMoniker": "PthAPI\\Model\\DevSmContext.cs",
+              "ToolTip": "E:\\BuiTienAnh\\H\u1ECDc t\u1EADp\\BuiTienAnh-TH\\BuiTienAnh-MVC\\PthAPI\\PthAPI\\Model\\DevSmContext.cs",
+              "RelativeToolTip": "PthAPI\\Model\\DevSmContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T03:49:32.693Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
